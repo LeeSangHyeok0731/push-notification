@@ -28,7 +28,7 @@ export default function Home() {
         if (permission === "granted") {
           new Notification("건조기가 완료되었습니다!", {
             body: `첫방문일시: ${date}`,
-            icon: "/next.svg",
+            icon: "/washer_icon.png",
           });
         } else {
           alert("알림 허용이 거부되었습니다.");
